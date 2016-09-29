@@ -1,5 +1,7 @@
 #include "utils.h"
 
+volatile uint32_t ticks_delay;
+
 void init_pll(void) {
 	RCC_DeInit();
 	
@@ -20,4 +22,9 @@ void init_pll(void) {
 	
 	RCC_SYSCLKConfig(RCC_SYSCLKSource_PLLCLK);
 	while (RCC_GetSYSCLKSource() != 0x08);
+}
+
+void delay(uint32_t milliseconds) {
+	uint32_t start = ticks_delay;
+	while ((ticks_delay - start) < milliseconds);
 }

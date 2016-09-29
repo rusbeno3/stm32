@@ -17,4 +17,5 @@ void UsageFault_Handler() {
 }
 
 void SysTick_Handler() {
+	ticks_delay++;
 }
