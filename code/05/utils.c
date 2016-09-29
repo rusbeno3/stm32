@@ -1,6 +1,6 @@
 #include "utils.h"
 
-volatile uint32_t ticks_delay;
+volatile uint32_t ticks_delay = 0;
 
 void init_pll(void) {
 	RCC_DeInit();
