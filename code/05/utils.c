@@ -22,6 +22,7 @@ void init_pll(void) {
 	
 	RCC_SYSCLKConfig(RCC_SYSCLKSource_PLLCLK);
 	while (RCC_GetSYSCLKSource() != 0x08);
+	SystemCoreClockUpdate();
 }
 
 void delay(uint32_t milliseconds) {

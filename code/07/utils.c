@@ -28,7 +28,7 @@ void delay(uint32_t time) {
     return;
   SysTick->CTRL &= ~SysTick_CTRL_TICKINT_Msk;
   SysTick->CTRL |= SysTick_CTRL_CLKSOURCE_Msk;
-  SysTick->LOAD = (SystemCoreClock / 1e6 * time);
+  SysTick->LOAD = (SystemCoreClock / 1000000 * time);
   SysTick->VAL = 0;
   SysTick->CTRL |= SysTick_CTRL_ENABLE_Msk;
   while (!(SysTick->CTRL & SysTick_CTRL_COUNTFLAG_Msk));
