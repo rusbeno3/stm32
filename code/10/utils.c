@@ -26,7 +26,7 @@ void init_pll(void) {
 }
 
 void delay(uint32_t time) {
-	if (time > SYSTICK_MAX_VALUE)
+	if (time > SYSTICK_MAX_VALUE || time == 0)
 		return;
 	SysTick->CTRL &= ~SysTick_CTRL_TICKINT_Msk;
 	SysTick->CTRL |= SysTick_CTRL_CLKSOURCE_Msk;
