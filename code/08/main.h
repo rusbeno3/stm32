@@ -11,6 +11,7 @@
 #include "ds18b20.h"
 #include "max7219.h"
 #include "encoder.h"
+#include "pwm.h"
 #include "buzzer.h"
 #include "rtc.h"
 #include "esp8266.h"
