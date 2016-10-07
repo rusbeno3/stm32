@@ -16,7 +16,7 @@
 
 ## Прочие ресурсы
 
-**Сайт курса**: [stm32.chrns.com](stm32.chrns.com)
+**Сайт курса**: [stm32.chrns.com](http://stm32.chrns.com/)
 
 **Приложение в Google Play**: [Google Play](https://play.google.com/store/apps/details?id=com.chrns.wi_ficlock)
 

@@ -12,11 +12,11 @@ The minimal level of competency at which to pass this course assumes the ability
 >To fully pass the course, you will need either to purchase components according to the specifications and make or factory order a circuit board, or [buy](http://stm32.chrns.com/#donate) a pre-packaged set.
 
 ## What can you find in the repository?
-In the current repository, you can find these course files for Storming STM32: a code for each lesson, and schematic and PCB files in KiCAD.
+In the current repository, you can find these course files for *Storming STM32*: a code for each lesson, and schematic and PCB files in KiCAD.
 
 ## Other resources
 
-**Course website**: [stm32.chrns.com](stm32.chrns.com)
+**Course website**: [stm32.chrns.com](http://stm32.chrns.com/)
 
 **App in Google Play**: [Google Play](https://play.google.com/store/apps/details?id=com.chrns.wi_ficlock)
 
